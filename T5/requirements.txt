@@ -1,0 +1,17 @@
+# Python >= 3.10 recommended
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+--find-links https://whl.natten.org
+
+torch==2.5.0+cu124
+torchvision==0.20.0+cu124
+natten==0.17.5+torch250cu124
+
+timm==0.4.12
+fvcore==0.1.5.post20221221
+numpy==2.1.2
+scipy==1.15.3
+pyyaml==6.0.3
+yacs==0.1.8
+tqdm==4.67.1
+pillow==11.3.0
